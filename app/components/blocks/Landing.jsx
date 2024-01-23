@@ -3,8 +3,8 @@ import { BsPlayCircle } from "react-icons/bs";
 
 const Landing = () => {
   return (
-    <div className="flex flex-col justify-center pl-28 pr-60 gap-8 mb-12">
-      <div className="text-7xl  ">
+    <div className="flex flex-col justify-center md:pl-28 md:pr-60 gap-8 mb-12">
+      <div className="text-3xl md:text-7xl  ">
         Pushing The Envelope of Software Development
       </div>
       <div className="max-w-72 font-medium">

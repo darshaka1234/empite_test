@@ -11,7 +11,7 @@ const Drawer = () => {
   return (
     <div className="md:hidden ">
       {open ? (
-        <div className="flex justify-between pt-5 bg-slate-200 pr-5">
+        <div className="flex justify-between pt-5 bg-slate-200 md:pr-5">
           <div className="flex flex-col h-screen pt-3  gap-5 px-5 ">
             {navbarItems.map((i) => (
               <p key={i}>{i}</p>
@@ -23,7 +23,7 @@ const Drawer = () => {
           <CloseButton onClick={() => setOpen(false)} />
         </div>
       ) : (
-        <div className="mt-9 mr-10">
+        <div className="mt-9 mr-5 md:mr-10">
           <MenuButton onClick={() => setOpen(true)} />
         </div>
       )}
