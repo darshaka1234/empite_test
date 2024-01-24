@@ -1,15 +1,15 @@
 import React from "react";
 import Logo from "./Logo";
-import Drawer from "./Drawer";
+import MyDrawer from "./MyDrawer";
 import NavLinks from "./NavLinks";
 
 const Navbar = () => {
   return (
     <>
-      <div className="flex justify-between pl-5 md:pl-10 md:px-28 ">
+      <div className="flex justify-between px-5 sm:px-10 md:px-28 md:pl-20 ">
         <Logo />
         <NavLinks />
-        <Drawer />
+        <MyDrawer />
       </div>
     </>
   );
