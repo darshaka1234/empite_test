@@ -49,19 +49,24 @@ const page = () => {
           className=""
         />
       </div>
-      {/* <div
-        style={{ backgroundImage: "url(/full.png)" }}
-        className="flex w-full justify-center items-center bg-contain  bg-no-repeat bg-slate-400  bg-center "
-      >
-        
-      </div> */}
-      <Image
-        src="/full.png"
-        height={50}
-        width={100}
-        alt="map"
-        layout="responsive"
-      />
+      <div className="flex relative   justify-center items-center bg-contain  bg-no-repeat  bg-center ">
+        <Image
+          src="/full.png"
+          width={50}
+          height={100}
+          alt="image4"
+          layout="responsive"
+          className="relative"
+        />
+        <Image
+          src="/darkplay.png"
+          height={50}
+          width={50}
+          alt="map"
+          className="absolute top-auto left-auto z-10"
+        />
+      </div>
+
       <Contacts />
       <Footer />
     </div>

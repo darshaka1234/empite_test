@@ -3,7 +3,7 @@ import Logo from "./Logo";
 
 const Footer = () => {
   return (
-    <div className="px-5 sm:px-10 md:px-28 pt-5 sm:pt-10 md:pt-28 pb-10 text-white bg-black flex flex-col gap-20">
+    <div className="px-5 sm:px-10 md:px-28 pt-10 sm:pt-10 md:pt-28 pb-10 text-white bg-black flex flex-col gap-20">
       <div className="grid grid-cols-1 md:grid-cols-2  xl:grid-cols-4 ">
         <div className="-mt-10">
           <Logo path="/blacklogo.svg" />
