@@ -9,7 +9,7 @@ const NavLinks = () => {
         </p>
       ))}
       <button className="bg-black px-2 rounded-md py-2 px-5">
-        <p className="text-sm text-white font-light">Let's Talk</p>
+        <p className="text-sm text-white font-light">{`Let's Talk`}</p>
       </button>
     </div>
   );
