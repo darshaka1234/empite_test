@@ -2,7 +2,7 @@ import React from "react";
 export const navbarItems = ["Home", "About us", "Portfolio", "Services"];
 const NavLinks = () => {
   return (
-    <div className="hidden md:flex gap-7 lg:gap-14  items-center">
+    <div className="hidden md:flex gap-7 lg:gap-14  items-center cursor-pointer">
       {navbarItems.map((i) => (
         <p key={i} className="font-medium">
           {i}

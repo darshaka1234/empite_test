@@ -19,7 +19,7 @@ const MyDrawer = () => {
       </div>
       <Drawer open={open} onClose={toggleDrawer} direction="right" className="">
         <div className="flex justify-between pt-5  ">
-          <div className="flex flex-col h-screen pt-3  gap-5 px-5 ">
+          <div className="flex flex-col h-screen pt-3 cursor-pointer gap-5 px-5 ">
             {navbarItems.map((i) => (
               <p key={i}>{i}</p>
             ))}
