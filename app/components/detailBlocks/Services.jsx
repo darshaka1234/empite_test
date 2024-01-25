@@ -30,7 +30,7 @@ const Services = () => {
     "ever-evolving world by delivering digital solutions that solve problems" +
     "in a secure, simple and effective way.";
   return (
-    <div className="bg-black text-white px-5 sm:px-10 xl:px-28 md:pt-12 xl:pt-28 xl:pr-28 pb-12 lg:pb-16 xl:pb-28">
+    <div className="bg-black text-white px-5 sm:px-10 xl:px-28 md:pt-28  xl:pr-28 pb-12 lg:pb-16 xl:pb-28">
       <h1 className="">{text}</h1>
       <div className="grid grid-col-1 md:grid-cols-2 gap-10 mt-12">
         {data.map((i) => {

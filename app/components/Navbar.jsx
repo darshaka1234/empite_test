@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <>
       <div className="flex justify-between px-5 sm:px-10 md:px-28 md:pl-20 ">
-        <Logo />
+        <Logo path="/logo.svg" />
         <NavLinks />
         <MyDrawer />
       </div>

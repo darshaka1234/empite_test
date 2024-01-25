@@ -12,6 +12,7 @@ import ImageSection from "./components/detailBlocks/ImageSection";
 import NumberSection from "./components/detailBlocks/NumberSection";
 import Slider from "./components/detailBlocks/Slider";
 import Contacts from "./components/detailBlocks/Contacts";
+import Footer from "./components/Footer";
 
 const page = () => {
   return (
@@ -35,14 +36,17 @@ const page = () => {
       </div>
       <ImageSection />
       <NumberSection />
-      <div className="grid grid-cols-1 md:grid-cols-2 pl-5 sm:pl-10 md:pl-28">
-        <Slider />
+      <div className="grid grid-cols-1 lg:grid-cols-2">
+        <div className=" pl-5 sm:pl-10 md:pl-28">
+          <Slider />
+        </div>
         <Image
           src="/testimonial.png"
           width={100}
           height={30}
           alt="testimonial"
           layout="responsive"
+          className=""
         />
       </div>
       {/* <div
@@ -59,6 +63,7 @@ const page = () => {
         layout="responsive"
       />
       <Contacts />
+      <Footer />
     </div>
   );
 };

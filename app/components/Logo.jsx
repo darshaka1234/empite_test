@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
-const Logo = () => {
+const Logo = ({ path }) => {
   return (
     <div className="relative w-24 h-24 -mt-1 ">
-      <Image src="./Logo.svg" alt="logo" layout="fill" />
+      <Image src={path} alt="logo" layout="fill" />
     </div>
   );
 };

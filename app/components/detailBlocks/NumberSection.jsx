@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const NumberSection = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3  p-5 sm:px-12 xl:p-28 gap-10 ">
+    <div className="grid grid-cols-1 md:grid-cols-3  p-5 sm:px-12 md:p-28 gap-10 ">
       <div className="flex flex-col gap-3">
         <div className="flex gap-2 items-start">
           <div className="mt-2">
