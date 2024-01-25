@@ -6,15 +6,15 @@ const ImageSection = () => {
     <div className="grid grid-cols-9 w-full  ">
       <div
         style={{ backgroundImage: "url(/four.png)" }}
-        className="col-span-2 md:col-start-1 md:col-end-6  flex  justify-center items-center "
+        className="col-span-2 md:col-start-1 md:col-end-6 w- h-auto bg-contain  flex  justify-center items-center bg-red-500 "
       >
         <Image src="/darkplay.png" width={50} height={100} alt="image4" />
       </div>
-      <div className="  col-start-6 col-end-8 ">
-        <Image src="/five.png" width={400} height={150} alt="image4" />
+      <div className="col-start-6 col-end-8 ">
+        <img src="/five.png" alt="image5" className="w-full" />
       </div>
       <div className="col-start-8 col-end-9 h-full  ">
-        <Image src="/six.png" width={200} height={180} alt="image4" />
+        <img src="/six.png" alt="image6" className="w-full h-full" />
       </div>
     </div>
   );

@@ -1,6 +1,9 @@
 import React from "react";
 import Image from "next/image";
-
+import { Playfair_Display } from "next/font/google";
+const playFair = Playfair_Display({
+  subsets: ["latin"],
+});
 const ShowCase = () => {
   return (
     <div
@@ -9,7 +12,9 @@ const ShowCase = () => {
     >
       <div>
         <h4 className="uppercase text-xs md:text-lg">capabilities</h4>
-        <div className="flex flex-col font-bold text-2xl lg:text-4xl xl:text-5xl mt-1 md:mt-5">
+        <div
+          className={`flex flex-col font-bold text-2xl lg:text-4xl xl:text-5xl mt-1 md:mt-5 ${playFair.className}`}
+        >
           <h1>Mobile.</h1>
           <h1>Web.</h1>
           <h1>Cloud.</h1>

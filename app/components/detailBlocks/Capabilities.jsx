@@ -1,6 +1,9 @@
 import React from "react";
 import Image from "next/image";
-
+import { Playfair_Display } from "next/font/google";
+const playFair = Playfair_Display({
+  subsets: ["latin"],
+});
 const Capabilities = () => {
   return (
     <div
@@ -8,7 +11,9 @@ const Capabilities = () => {
       style={{ backgroundImage: "url(/shoecase.png)" }}
     >
       <h4 className="uppercase text-xs md:text-lg">showcase</h4>
-      <div className="flex flex-col font-bold text-2xl lg:text-4xl xl:text-5xl">
+      <div
+        className={`flex flex-col font-bold text-2xl lg:text-4xl xl:text-5xl ${playFair.className}`}
+      >
         <h1>Our most recent</h1>
         <h1>projects.</h1>
       </div>

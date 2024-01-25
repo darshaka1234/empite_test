@@ -10,6 +10,9 @@ module.exports = {
       colors: {
         body: "#717171",
       },
+      fontFamily: {
+        playfair: ["var(--font-play-fair)"],
+      },
     },
   },
   plugins: [],

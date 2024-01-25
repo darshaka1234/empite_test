@@ -1,7 +1,22 @@
-import { Inter } from "next/font/google";
+import {
+  Inter,
+  Playfair_Display,
+  Mulish,
+  Space_Grotesk,
+} from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
+
+const playFair = Playfair_Display({
+  subsets: ["latin"],
+  variable: "--font-play-fair",
+});
+const mulish = Mulish({ subsets: ["latin"], variable: "--font-mulish" });
+const space = Space_Grotesk({
+  subsets: ["latin"],
+  variable: "--font-space-grotesk",
+});
 
 export const metadata = {
   title: "Create Next App",

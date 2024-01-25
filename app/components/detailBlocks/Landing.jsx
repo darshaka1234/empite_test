@@ -1,10 +1,16 @@
 import React from "react";
 import Image from "next/image";
+import { Playfair_Display } from "next/font/google";
 
+const playFair = Playfair_Display({
+  subsets: ["latin"],
+});
 const Landing = () => {
   return (
     <div className="flex flex-col justify-center px-5 sm:px-10 mt-10 sm:mt-20 md:mt-5 lg:pl-12 xl:pl-28 md:pr-36 lg:pr-60 gap-8 sm:gap-12 md:gap-4 lg:gap-6 xl:gap-8 mb-12 ">
-      <div className="text-4xl sm:text-5xl md:text-4xl xl:text-5xl 2xl:text-7xl  ">
+      <div
+        className={`text-4xl sm:text-5xl md:text-4xl xl:text-5xl 2xl:text-7xl ${playFair.className} font-bold `}
+      >
         Pushing The Envelope of Software Development
       </div>
       <div className="max-w-72 md:max-w-none font-medium">

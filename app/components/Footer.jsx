@@ -11,13 +11,13 @@ const Footer = () => {
         <div className="flex flex-col gap-10">
           <div className="flex flex-col gap-6 pr-32">
             <h4 className="text-body font-medium">Melbourne</h4>
-            <h4 className="font-semibold text-lg">
+            <h4 className=" text-lg">
               Level 1, Unit 9 / 677 Springvale Road, Mulgrave VIC 3170
             </h4>
           </div>
           <div className="flex flex-col gap-6 pr-32">
             <h4 className="text-body font-medium">Colombo</h4>
-            <h4 className="font-semibold text-lg">
+            <h4 className=" text-lg">
               Level 4, 46/38, Navam Mawatha, Colombo 02, 00200
             </h4>
           </div>
@@ -25,7 +25,7 @@ const Footer = () => {
         <div>
           <div className="flex flex-col gap-6">
             <h4 className="text-body font-medium">Work inquiries</h4>
-            <h4 className="font-semibold text-lg">
+            <h4 className=" text-lg">
               Interested in working with us? hello@empite.com
             </h4>
           </div>

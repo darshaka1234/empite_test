@@ -29,13 +29,19 @@ const data = [
     position: "3  CTO, Good 2 Give",
   },
 ];
+import { Playfair_Display } from "next/font/google";
 
+const playFair = Playfair_Display({
+  subsets: ["latin"],
+});
 const Slider = () => {
   const [current, setCurrent] = useState(0);
   return (
     <div className="flex flex-col gap-8 pt-5 sm:pt-10 xl:pt-28 pr-5 sm:pr-10 md:pr-28">
       <h1 className="uppercase text-[#2C2C2C] font-semibold">Testimonials</h1>
-      <h1 className=" text-3xl md:text-6xl  font-semibold">
+      <h1
+        className={`text-3xl md:text-6xl  font-semibold ${playFair.className}`}
+      >
         {data[current].title}
       </h1>
       <Image
